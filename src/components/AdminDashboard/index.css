@@ -1,0 +1,304 @@
+.admin-dashboard {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f8f9fa;
+  min-height: 100vh;
+}
+
+.admin-header {
+  margin-bottom: 30px;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-nav-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.back-to-home-btn {
+  background: #6c757d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.back-to-home-btn:hover {
+  background: #5a6268;
+  transform: translateY(-1px);
+}
+
+.admin-nav-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.nav-btn:hover {
+  transform: translateY(-1px);
+}
+
+.jobs-btn {
+  background: #17a2b8;
+}
+
+.jobs-btn:hover {
+  background: #138496;
+}
+
+.discussion-btn {
+  background: #6f42c1;
+}
+
+.discussion-btn:hover {
+  background: #5a32a3;
+}
+
+.admin-title-section {
+  text-align: center;
+}
+
+.admin-title-section h1 {
+  color: #333;
+  margin-bottom: 10px;
+  font-size: 32px;
+}
+
+.admin-title-section p {
+  color: #666;
+  font-size: 16px;
+}
+
+.refresh-btn {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+}
+
+.refresh-btn:hover {
+  background: #218838;
+  transform: translateY(-1px);
+}
+
+.admin-tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+.tab-btn {
+  padding: 12px 24px;
+  border: 2px solid #e1e5e9;
+  background: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  color: #666;
+}
+
+.tab-btn:hover {
+  border-color: #667eea;
+  color: #667eea;
+}
+
+.tab-btn.active {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-color: transparent;
+}
+
+.admin-content {
+  background: white;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.jobs-section h2,
+.comments-section h2 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 24px;
+  border-bottom: 2px solid #e1e5e9;
+  padding-bottom: 10px;
+}
+
+.no-data {
+  text-align: center;
+  color: #6c757d;
+  font-style: italic;
+  padding: 40px;
+  font-size: 18px;
+}
+
+.jobs-list,
+.comments-list {
+  display: grid;
+  gap: 20px;
+}
+
+.job-card,
+.comment-card {
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 10px;
+  padding: 20px;
+  transition: all 0.3s ease;
+  border-left: 4px solid #667eea;
+}
+
+.job-card:hover,
+.comment-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.job-info h3 {
+  color: #333;
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+
+.company {
+  color: #667eea;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.location {
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.salary {
+  color: #28a745;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.description {
+  color: #555;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.comment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.comment-header strong {
+  color: #333;
+  font-size: 16px;
+}
+
+.comment-date {
+  color: #6c757d;
+  font-size: 14px;
+}
+
+.comment-text {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.job-actions,
+.comment-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.delete-btn {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.delete-btn:hover {
+  background: #c82333;
+  transform: translateY(-1px);
+}
+
+.delete-btn svg {
+  font-size: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .admin-dashboard {
+    padding: 10px;
+  }
+  
+  .admin-nav-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .admin-nav-buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .admin-tabs {
+    flex-direction: column;
+  }
+  
+  .tab-btn {
+    text-align: center;
+  }
+  
+  .comment-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+  
+  .job-actions,
+  .comment-actions {
+    justify-content: center;
+  }
+}
+
