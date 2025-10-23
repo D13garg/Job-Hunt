@@ -1,51 +1,92 @@
-ONLINE JOB PORTAL USING REACT AND SANITY
+# 🌐 **ONLINE JOB PORTAL USING REACT AND SANITY**
+
+## 🧾 **Project Overview**
+
+This website is designed to help users **search for top jobs** from reputed companies around the world.  
+It includes advanced functionalities such as **searching** and **filtering** jobs based on **job role** or **experience level**.
+
+Additionally, it provides:
+- 📝 A **form** where companies can add their job listings directly to the site.  
+- 🔖 A **bookmark feature** allowing users to save jobs for later viewing.  
+- 💬 A **Discussion Chamber** powered by **Sanity (Headless CMS)** where users can:
+  - Write and format text (bold, italic, etc.)  
+  - Upload or preview images via direct links (automatically detected using Regex)  
+  - Reply and interact in real-time discussions  
+
+The entire website is **fully responsive** and optimized for all devices.
+
+---
+
+## 🚀 **Getting Started**
+
+To run this project locally, follow these steps:
+
+---
+
+### 🧩 **Prerequisites**
+
+Ensure you have the following installed on your system:
+
+- [**Node.js**](https://nodejs.org/) (v16 or later recommended)  
+- [**Visual Studio Code**](https://code.visualstudio.com/)  
+- **npm** (comes bundled with Node.js)
+
+---
+
+### ⚙️ **Installation & Setup**
+
+1. *Open the Project*
+   - Download or clone this repository  
+   - Open the folder in *Visual Studio Code*
+
+2. *Install Dependencies*
+   ```bash
+   npm install
 
 
-This website is all about searching the top jobs from top-reputed companies all over the world.
-It has additional functionalities of searching and filter jobs on based of their job role or experience.
-Further more it has a form where a company user who wants to add their job on to our site can fill the form and add it.
-Next, it has an option where a student/user can save the job by clicking on bookmark icon.
+3. *Build the Project*
+
+       Run this command to build the project
+       npm run build
 
 
-Now one surprise section added is of discussion Chamber which is connected with Sanity(Headless CMS).
-A text-editor is added with functionalities of bold,italic,etc and image section where a user can just upload an image or can copy any image address from wherever and it will automatically preview image according to the type of input url using regex.
-User can reply the same thing as well at the same time.
+4. *Start the Application*
 
-This website is fully responsive..
-
+       Start the local development server
+       npm start
 
 
+5. *Open the Website*
 
-Home Page
-
-![Screenshot 2023-01-28 at 8 49 15 PM](https://user-images.githubusercontent.com/114575434/215274848-ce9787c7-8bdc-43c5-9f58-f7862b4cecd7.png)
-
-
-Jobs Page
-
-![Screenshot 2023-01-28 at 8 47 22 PM](https://user-images.githubusercontent.com/114575434/215274857-f2aefecd-f349-4c8c-b703-0c4ad410159a.png)
+        Once started, the site will be available at:
+        http://localhost:3000
 
 
+💡 *Notes*
 
-Job Category Filter
+    If you encounter an error like:
+    'react-scripts' is not recognized
 
+Then run:
 
-![Screenshot 2023-01-28 at 8 47 22 PM](https://user-images.githubusercontent.com/114575434/215274869-908a1630-83c9-44c6-bf37-dfb76262a895.png)
+     npm install react-scripts
 
-
-
-Discussion Chamber
-
-![Screenshot 2023-01-28 at 8 52 19 PM](https://user-images.githubusercontent.com/114575434/215274887-06fa1c2e-79b1-47f0-b0ee-bdb34d6f1281.png)
-
-
+     To stop the development server:
+     Ctrl + C
 
 
+🧰 **Tools & Technologies Used**
 
-Tools and Technology Used:-
+Category	Tools / Technologies
 
-1.HTML CSS AND JS
-2.React JS
-3.Sanity for Backend.
-4.VS Code
-5.Vercel for deployment.
+
+🌐 Frontend	HTML, CSS, JavaScript, React.js
+
+
+🗄️ Backend	Sanity (Headless CMS)
+
+
+🧑‍💻 IDE	Visual Studio Code
+
+
+🚀 Deployment	Vercel
