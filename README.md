@@ -84,10 +84,7 @@ Category	Tools / Technologies
 🌐 Frontend	HTML, CSS, JavaScript, React.js
 
 
-🗄️ Backend	Sanity (Headless CMS)
-
-
 🧑‍💻 IDE	Visual Studio Code
 
 
-🚀 Deployment	Vercel
+
