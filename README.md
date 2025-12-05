@@ -1,5 +1,6 @@
 # 🌐 **ONLINE JOB PORTAL USING REACT AND SANITY**
-
+### 👨‍💻 Developed by: **Dron Garg** (2023-27)
+🎓 *Third-year student, Thapar University*
 ## 🧾 **Project Overview**
 
 This website is designed to help users **search for top jobs** from reputed companies around the world.  
